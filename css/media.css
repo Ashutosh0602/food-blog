@@ -1,0 +1,111 @@
+@media screen and (max-width: 1200px) {
+    html{
+        font-size: 5px;
+    }
+    body{
+        font-size: 10px;
+    }
+    .navigation-bar{
+        padding: 2px 2px;
+        display: flex;
+        flex-direction: column;
+    }
+    .navigation-bar-search{
+        position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-110%, -50%);
+    }
+    .search{
+        width: 30rem;
+        height: 2rem;
+        font-weight: 500;
+        font-size: 80%;
+        
+    }
+    .navigation-bar-info a{
+        font-size: 2.4rem;
+    }
+    .chef-invitatio{
+        padding:3rem 0rem;
+    }
+    .chef-invitation-inver{
+        display: none;
+        font-size: 20rem;
+        position: relative;
+        top: -10%;
+    }
+    .chef-invitation-details{
+        margin: 3rem 0rem;
+        display: inline-block;
+        width: 100rem;
+        
+    }
+    .details-1{
+        width:100%;
+    }
+    .chef-invitation-image{
+        margin-left: 6rem;
+        width: 60rem;
+    }
+    .chef-image{
+        width: 100%;
+        height: 140%;
+    }
+    .trending-recipe-title p{
+        font-size: 200%;
+    }
+    .trending-recipe-title{
+        height: 8rem;
+    }
+    .trending-recipe-block-element{
+        /* margin-right:12rem ; */
+        width: 35rem;
+        height: 35rem;
+    }
+    .famous-recipe{
+        padding: 10rem 0rem;
+    }
+    .famous-recipe-card{
+        padding: 1rem 0;
+    }
+    .famous-recipe-block{
+        /* height: 10rem; */
+        text-overflow: ellipsis;
+
+    }
+    .famous-recipe-details{
+        /* display: none; */
+        /* position: absolute; */
+        text-overflow: ellipsis;
+        font-size: 1.8rem;
+    }
+    .final-about{
+        display: flex;
+        flex-direction: column;
+    }
+    .review{
+        width: 100vw;
+    }
+    .review-clip{
+        clip-path: none;
+    }
+    .review-email{
+        /* width: 70vw; */
+    }
+    .email{
+        width: 70vw;
+        font-size: 150%;
+    }
+    .name{
+        width: 70vw;
+        font-size: 150%;
+    }
+    .details-exp{
+        width: 70vw;
+        font-size: 150%;
+    }
+    .contact{
+        width: 100vw;
+    }
+} 
